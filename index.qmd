@@ -1,0 +1,62 @@
+# Apresentação {.unnumbered}
+
+Este site reúne minhas anotações das aulas de **Espaço, População e Política**, disciplina do programa de pós-graduação do [IESP-UERJ](https://iesp.uerj.br). As anotações são produzidas em [Quarto](https://quarto.org) e publicadas automaticamente via GitHub Pages.
+
+## Sobre a disciplina
+
+A disciplina investiga como espaço e demografia moldam a política — e vice-versa. O foco é na relação entre padrões geográficos de votação, deslocamentos populacionais e fatores sociodemográficos (composição etária, fertilidade, segregação racial) e seus efeitos sobre a competição eleitoral. A abordagem é teórica e metodológica, em diálogo com a geografia e a demografia política.
+
+**Professor:** Fernando Guarnieri ([fhguarnieri@iesp.uerj.br](mailto:fhguarnieri@iesp.uerj.br))
+
+**Período:** 1º semestre de 2026
+
+## Avaliação
+
+| Componente | Peso |
+|---|---|
+| Participação em sala de aula | 50% |
+| Trabalho final | 50% |
+
+## Plano de aulas
+
+| Aula | Tópico |
+|---|---|
+| 1 | Apresentação do curso |
+| 2 | Geografia e política |
+| 3 | Padrões espaciais do voto (Brasil) |
+| 4 | Padrões espaciais do voto (EUA e UE) |
+| 5 | Efeitos contextuais |
+| 6 | Redes, território e voto |
+| 7 | Vizinhos e amigos |
+| 8 | Pós-estratificação e inferência ecológica |
+| 9 | Geografia, votos e cadeiras: viés partidário e representação |
+| 10 | Segregação espacial e voto |
+| 11 | Política e população |
+| 12 | *Whiteshift*: mudanças demográficas e o crescimento da extrema direita |
+| 13 | Sexo, fertilidade e política |
+| 14 | O urbano e a política |
+
+## Leituras principais
+
+- @lacoste1977geografia
+- @rodden2010geographic
+- @soares2008dois
+- @gelman2009red
+- @johnston2004electoral
+- @huckfeldt1987networks
+- @key1949southern
+- @king2008ordinary
+- @gudgin1974electoral
+- @schelling1971dynamic
+- @teitelbaum2015political
+- @kaufmann2021whiteshift
+- @toft2021wombfare
+- @marques2017busca
+
+## Como usar estas notas
+
+As anotações estão organizadas por aula na barra lateral à esquerda. Cada página corresponde a uma aula e cobre os principais tópicos discutidos.
+
+::: callout-note
+Estas são anotações pessoais e podem conter imprecisões. Use-as como complemento, não como substituto do material oficial da disciplina.
+:::
