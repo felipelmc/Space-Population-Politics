@@ -1,0 +1,188 @@
+---
+title: "Red State, Blue State, Rich State, Poor State"
+subtitle: "Gelman, Park, Shor, Bafumi & Cohon (2009)"
+author: "Felipe Lamarca"
+date: 2026-04-09
+date-format: "DD/MM/YYYY"
+lang: pt
+
+format:
+  beamer:
+    theme: metropolis
+    slide-level: 2
+    toc: false
+    header-includes: |
+      \usepackage{booktabs}
+      \usepackage{fontawesome5}
+      \metroset{titleformat=smallcaps, progressbar=frametitle, block=fill, numbering=fraction}
+      \definecolor{mDarkTeal}{HTML}{2c3e50}
+      \definecolor{mLightBrown}{HTML}{2980b9}
+      \setbeamercolor{frametitle}{bg=mDarkTeal}
+      \setbeamercolor{progress bar}{fg=mLightBrown}
+      \setbeamercolor{alerted text}{fg=mLightBrown}
+
+bibliography: ../references.bib
+---
+
+## O livro
+
+@gelman2009red é uma expansão de um artigo anterior:
+
+\bigskip
+
+> *"Rich State, Poor State, Red State, Blue State: What's the Matter with Connecticut?"*
+> --- @gelman2007rich
+
+\bigskip
+
+Investigam um suposto paradoxo eleitoral que ficou evidente nas eleições de **2000 e 2004**: estados ricos votando nos Democratas, estados pobres nos Republicanos.
+
+---
+
+## O paradoxo
+
+Nas eleições de 2000 e 2004:
+
+- **Bush (Republicano)** varreu os estados mais **pobres** — Sul, interior
+- **Gore/Kerry (Democrata)** venceram nos estados mais **ricos** — Nordeste, Costa Oeste
+
+\bigskip
+
+> *"The Democrats win the rich states, but rich people vote Republican, just as they have for decades."*
+> --- @gelman2009red [p. 3]
+
+\bigskip
+
+Conclusão dos jornalistas e alguns analistas políticos: *"os ricos viraram democratas."*
+
+---
+
+## Falácia ecológica
+
+Confundir o comportamento de **estados** com o de **indivíduos** é uma falácia ecológica clássica.
+
+\bigskip
+
+> *"If poor people were a state, they would be 'bluer' even than Massachusetts; if rich people were a state, they would be about as 'red' as Alabama, Kansas, the Dakotas, or Texas."*
+> --- @gelman2009red [p. 3]
+
+---
+
+## Esses jornalistas...
+
+\alert{Aliás:} Gelman e coautores não são muito fãs de jornalistas \faGrinSquintTears. Cada capítulo abre com uma epígrafe de comentarista, a ser contradito pelos dados logo em seguida.
+
+---
+
+## O dado: surveys eleitorais
+
+Como estudar preferências eleitorais?
+
+\bigskip
+
+**Surveys pré e pós-eleitorais, em particular _exit polls_:**
+
+- Perguntam diretamente em quem o respondente votou (ou pretende votar)
+- Permitem cruzar voto com renda, raça, religião, escolaridade...
+- Usam múltiplas pesquisas eleitorais americanas ao longo de décadas
+
+---
+
+## A relação entre riqueza do estado e voto republicano
+
+O primeiro achado: o coeficiente da renda média dos estados varia sistematicamente por região, com variações ao longo do tempo.
+
+\bigskip
+
+Estados do Sul mantêm uma relação muito mais forte entre renda e voto republicano do que os demais.
+
+No gráfico a seguir, mostro os resultados das regressões com dados agregados a nível dos estados/regiões.
+
+---
+
+## {.plain}
+
+\vspace{0.5em}
+\begin{center}
+\includegraphics[width=0.95\textwidth]{imgs/slopes_income_states.png}
+\end{center}
+
+---
+
+## Regressão logística multinível, ou como estimar o efeito da renda no nível individual por estados
+
+Para capturar a variação dos *slopes* entre estados [@gelman2007rich]:
+
+$$
+\Pr(y_i = 1) = \text{logit}^{-1}(\alpha_{s[i]} + \beta_{s[i]} \, x_i)
+$$
+
+\medskip
+
+\begin{tabular}{ll}
+$y_i = 1$ & voto no candidato Republicano \\
+$x_i$ & renda do respondente $i$ \\
+$\alpha_{s[i]}$ & apoio republicano médio no estado $s$ \\
+$\beta_{s[i]}$ & \alert{efeito da renda dentro do estado} $s$ \\
+\end{tabular}
+
+\bigskip
+
+**Resultado:** Mississippi (pobre) tem o maior $\beta$; Connecticut (rico), o menor.
+
+---
+
+## {.plain}
+
+\vspace{0.5em}
+\begin{center}
+\includegraphics[height=0.88\textheight]{imgs/random_slopes_income.png}
+\end{center}
+
+---
+
+## Método: regressão logística multinível
+
+::: {.callout-note}
+Para ajudar a estimar os efeitos a nível estadual, é possível incluir na matriz $\mathbf{X}$ covariáveis a nível dos estados — por exemplo, a renda média do estado.
+:::
+
+---
+
+## O novo puzzle
+
+Os autores esperavam linhas paralelas — renda predizendo voto da mesma forma em todos os estados. Não foi o que encontraram.
+
+\bigskip
+
+> *"The relationship between income and vote choice is much stronger in poor states such as Mississippi than in rich states such as Connecticut."*
+> --- @gelman2009red [p. 18]
+
+\bigskip
+
+Isso \alert{redefine a pergunta}: em vez de "por que estados ricos votam Democrata?", passamos a perguntar — ***what's the matter with Connecticut?***
+
+---
+
+## Por que a renda importa mais em estados pobres?
+
+\textbf{1. Raça} — A divisão rico/pobre nos estados pobres do Sul coincide com a divisão branco/negro, amplificando o efeito da renda.
+
+\bigskip
+
+\textbf{2. Religião} — Em estados pobres, ricos são mais religiosos; em estados ricos, é o contrário. Religiosidade dá aos ricos do Mississippi um motivo extra para votar Republicano que os ricos de Connecticut não têm.
+
+---
+
+## Resumo
+
+O paradoxo some quando a gente para de cometer a falácia ecológica. O modelo multinível é o que permite enxergar os dois níveis ao mesmo tempo.
+
+Em particular, o que a gente observa é o seguinte:
+
+- a clivagem entre ricos e pobres aparece em qualquer estado -- ricos preferem Republicanos, pobres preferem Democratas;
+- A diferença está entre os ricos: nos estados pobres, os ricos votam com mais convicção nos Republicanos; nos pobres, esse efeito é atenuado por outras questões de ordem cultural.
+
+---
+
+## Referências {.allowframebreaks}

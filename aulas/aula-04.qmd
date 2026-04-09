@@ -1,0 +1,69 @@
+---
+title: "Padrões espaciais do voto (EUA e UE)"
+subtitle: "Aula 4"
+date: 2026-04-09
+---
+
+# @gelman2009red
+
+> Carlson was half right. The Democrats win the rich states, but rich people vote Republican, just as they have for decades. 
+> 
+> However, what makes the statement interesting, though, is that it sounds as if it could be right. Consider the 2000 and 2004 elections, where George W. Bush won the lower-income states in the South and middle of the country, while his Democratic opponents captured the richer states in the Northeast and West Coast. As we shall discuss, this pattern is not an illusion of the map—the Democrats really have been doing better in richer parts of the country, and this pattern has become more noticeable in recent elections.
+> 
+> The paradox is that, while these rich states have been trending Democratic, rich voters have remained consistently more Republican than voters on the lower end of the income scale. We display the graphically in figure 1.1. Tucker Carlson’s statement sounded reasonable given the voting patterns in states, but it doesn’t match what individual voters are doing. If poor people were a state, they would be “bluer” even than Massachusetts; if rich people were a state, they would be about as “red” as Alabama, Kansas, the Dakotas, or Texas. [@gelman2009red, p. 3]
+
+> What this means is that the political differences among states are driven by cultural issues, but within states, the traditional rich–poor divide remains. [@gelman2009red, p. 5]
+
+> When the news media repeatedly make a specific mistake, it is worth looking at. The perception of polarization is itself a part of polarization, and views about whom the candidates represent can affect how political decisions are reported. And, as we explore exhaustively, the red–blue culture war does seem to appear in voting patterns, but at the high end of income, not the low, with educated professionals moving toward the Democrats and managers and business owners moving toward the Republicans. [@gelman2009red, p. 6]
+
+> If the Republicans represent the rich and big business and Democrats traditionally represent poorer people, why do wealthy states go for the Democrats? These patterns, along with blue-collar Reagan Democrats, the decline of organized labor, and the rise of the Sunbelt, motivate recent discussions of yuppie Democrats in the coastal cities and poorer Republicans elsewhere in the country. [@gelman2009red, p. 9]
+
+> Who gets the votes of the rich and the poor? Amid all the noise about red and blue states, rich voters continue to support the Republicans. [@gelman2009red, p. 9]
+
+> Brooks lives in a liberal, well-off part of the country. It is characteristic of the East and West Coasts that the richer areas tend to be more liberal, but in other parts of the country, notably the South, richer areas tend to be more conservative. [@gelman2009red, p. 11]
+
+> We think both sides on this argument are trying too hard to explain something that’s simply not true. Lower-income Americans don’t, in general, vote Republican—and, where they do, richer voters go Republican even more so. [@gelman2009red, p. 16]
+
+##  Income matters more in poor states than in rich states
+
+> In low-income states such as Mississippi and Alabama, richer people were far more likely to vote for Bush. But in richer states such as New York and California, income is not a strong predictor of individual votes. [@gelman2009red, p. 17]
+
+> The resolution of the red–blue paradox and the introduction of a new puzzle. Within any state, Republican support is flat or increasing with income. At the same time, the Democrats do better in richer states. (The three lines show the pattern of income and voting in 2004 in the poorest state, a middle-income state, and the richest state.) The new puzzle is that the relationship between income and vote choice is much stronger in poor states such as Mississippi than in rich states such as Connecticut. [@gelman2009red, p. 18]
+
+We weren’t looking for this sort of pattern. Our original thinking was that some states are more Republican than others, but that there would be a consistent pattern of income and voting within each state, thus, the parallel lines with Mississippi on the top, then Ohio, then Connecticut, and each of the lines sloping upward. The graph as a whole was intended to show how increasing income could be predictive of Republican vote in each state, even while, on average, richer states supported Democrats. [@gelman2009red, p. 18]
+
+> In summary, who’s been voting for Democrats in recent presidential elections? Most of the poor people in most of the country (except for Texas and some of the plains and mountain states), as shown in the bottom of the three maps in plate 3. The Democrats also have the support of the middle class in the West Coast, the northeast, and some of the upper Midwest. Among the rich, Democrats win only in California, New York, Massachusetts, and Connecticut.
+> 
+> Conversely, Republicans have been winning the votes of most of the upper-income voters in almost all of the states, middle-income voters in most of the states, and lower-income voters in only a few states. In fact, if only rich People’s votes were counted, Republicans would win an electoral landslide, and if only poor People’s votes were counted, Democrats would win overwhelmingly. [@gelman2009red, p. 19]
+
+## Why does income matter more in poor states than in rich states?
+
+> Part of the story is race. In poor southern states such as Missis-
+sippi, the rich–poor divide coincides with a white black divide,
+which, given the differences between the two parties on racial
+issues, will lead to a bigger difference between the voting patterns
+of rich and poor.  
+
+> Religion also plays a role. In poor states, richer people are more likely than the poor to attend religious services, but in rich states, it is poor people who are churchgoers, often in evangelical denominations. By virtue of their religiosity, richer voters in Mississippi and other poor states have an extra reason to vote Republican. In contrast, richer voters in Connecticut and other poor states have a conflict between their economic status and their relative lack of religiosity. [@gelman2009red, p. 22]
+
+> The political differences between Democratic and Republican voters are greatest among the middle-class and rich, and these are the people who can more easily afford to live where they would like. Increasingly, culture and religion are more important predictors of vote choice among the rich than the poor, and in that sense the country is polarized in two ways: economically between the rich and the poor, and culturally between upper-income Americans in red and blue areas. [@gelman2009red, p. 23]
+
+# @gelman2007rich
+
+> For decades, the Democrats have been viewed as the party of the poor, with the Republicans representing the rich. Recent presidential elections, however, have shown a reverse pattern, with Democrats performing well in the richer blue states in the northeast and coasts, and Republicans dominating in the red states in the middle of the country and the south. Through multilevel modeling of individual-level survey data and county- and state-level demographic and electoral data, we reconcile these patterns.
+>
+> Furthermore, we find that income matters more in red America than in blue America. In poor states, rich people are much more likely than poor people to vote for the Republican presidential candidate, but in rich states (such as Connecticut), income has a very low correlation with vote preference. [@gelman2007rich, p. 345]
+
+> We find that income matters more in red America than in blue America. In poor states, rich people are much more likely than poor people to vote for the Republican presidential candidate, but in rich states (such as Connecticut), income has almost no correlation with vote preference. [@gelman2007rich, p. 349]
+
+> To study the relation of income to individual vote preferences, controlling for state, we fit from each election year’s poll data6 a multilevel logistic regression of vote preference on income (using the five-point scale noted in Footnote 5) and state. This varying-intercept model gives us 50 state-level coefficients allowing geographic variation in support for the Republican candidate in each election.7 The coefficient for income then represents the extent to which Republicans are differentially supported by richer voters, within any given state. [@gelman2007rich, p. 351]
+
+$$
+\text{Pr}(y_i = 1) = \text{logit}^{-1} (\alpha_{s[i]} + \beta_{s[i]}x_i), \text{ for } i = 1, ..., n
+$$
+
+> From this new model, we indeed find strong variation among states in the role of income in predicting vote preferences. Figure 4 recreates Figure 3 with the estimated varying intercepts and slopes. As before, we see generally positive slopes within states and a negative slope between states. What is new, though, is a systematic pattern of the within-state slopes, with the steepest slope in the poorest state — Mississippi — and the shallowest slope in the richest state — Connecticut. [@gelman2007rich, p. 356]
+
+Our varying-intercept, varying-slope model has thus redefined the puzzle: in asking why the patterns within states differ from those between states, we are specifically interested in why slopes have become so shallow in rich states — that is, what’s the matter with Connecticut? We have found that the differences between rich and poor states have become much more prominent in the past 10 years, that they cannot simply be explained by race, and that they cannot be explained by the set of demographic variables that are typically used in adjusting survey respondents. 
+> 
+> This is not to say that income is causing support for Republicans (or that such a causal relation is stronger in Mississippi than in Connecticut), but rather that richer voters within any state are more likely to support the Republicans, even after controlling for basic demographic variables — and this pattern is strong in poor states but weak in rich states. [@gelman2007rich, p. 360]

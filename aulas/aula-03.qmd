@@ -1,0 +1,9 @@
+---
+title: "Padrões espaciais do voto no Brasil"
+subtitle: "Aula 3"
+date: 2026-03-26
+---
+
+# @soares2008dois
+
+Se a gente mapear a distribuição de certos atributos que estão associados ao voto, conseguiremos mapear o voto. Esse é o determinismo por trás desse tipo de geografia política -- mapeando as variáveis certas, conseguimos prever certos comportamentos políticos. No Brasil, isso é feito desde a década de 1950, sobretudo em São Paulo.

@@ -1,4 +1,41 @@
 ---
-title: "Aula 2"
+title: "Geografia e Política"
+subtitle: "Aula 2"
 date: 2026-03-18
 ---
+
+# @lacoste1977geografia
+
+> La geografía es, en primer lugar, un saber estratégico estrechamente unido a un conjunto de prácticas políticas y miliares, y son dichas prácticas las que exigen la recopilación articulada de unas informaciones extremadamente variadas y a primera vista heteogéneas, cuya razón de ser y cuya importancia no es posible entender si nos limitados a la legitimidad de la división del Saber para el Saber. [@lacoste1977geografia, p. 7]
+
+> El trazado de un mapa implica un cierto dominio político y científico del espacio representado, y es un instrumento de poder sobre dicho espacio y sobre las personas que viven en él. [@lacoste1977geografia, p. 8]
+
+> En el momento en que, sobre todo, evidencia su <<inutilidad>>, el discurso geográfico ejerce su función embaucadora más eficaz; pues la crítica de sus afirmaciones <<neutras>> e <<inocentes>> parece superflua. La proeza ha consistido en hacer pasar un saber estratégico miliar y político por un discurso pedagógico o científico totalmente inofensivo. Como veremos, las consecuencias de este engaño son graves. Por dicho motivo es especialmente importante afirmar que la geografía sirve, en primer lugar, para hacer la guerra, o sea, desenmascarar una de sus funciones estratégicas esenciales y desmontar los subterfugios que la hacen pasar por inofensiva e inútil. El general Pinochet también es un geógrafo. [@lacoste1977geografia, p. 9]
+
+# @rodden2010geographic
+
+> Even in traditional societies without much residential mobility, voters are often clustered into villages or neighborhoods where strong social ties reinforce similar political preferences and voting behavior among neighbors, and hese often endure for generations. [@rodden2010geographic, p. 322]
+
+# Anotações de aula
+
+Lacoste propõe a ideia de que o conhecimento geográfico serve para a guerra de forma estratégica. Em particular, o que @lacoste1977geografia propõe é que a maneira como a geografia é ensinada serve apenas para escamotear o real motivo para o qual ela existe: a guerra. A proposta, aliás, é apresentar essa utilidade da geografia para todos, tirando o conhecimento exclusivamente das mãos dos mais poderosos.
+
+A questão aqui é qual é a relação entre espaço e estratégia. O espaço define as relações entre as pessoas e, até certo ponto, isso é definido pela distribuição no espaço.
+
+> A ciência política, com a teoria dos jogos, desenvolve uma série de modelos que simplificam a realidade mas dos quais é possível de tirar algo útil. Modelar a estratégia dos atores é algo difícil.
+> 
+> Como certas restrições de ordem institucional e social constragem as ações políticas? Podemos usar EDO para modelar isso.
+
+O ponto da geografia sempre foi essa ideia de você estudar a relação do homem com a natureza. Você começa lá atrás, de uma geografia física, que serve antes de tudo para fazer a guerra.
+
+Há uma interação entre características físicas e culturais que limitam a maneira do homem ser no mundo.
+
+É importante teorizar. A minha teoria deveria me levar a verificar se existe algum tipo de relação espacial (mas isso vale para qualquer tipo de hipótese). Devemos forçar a barra da teoria: os atores políticos buscam maximizar alguma coisa. Os líderes partidários querem maximizar o número de candidatos eleitos. Se eu parto da premissa de maximização, eu posso desenhar um modelo de otimização que impõe restrições. 
+
+De fato, se você quer fazer uma ciência política que ajuda alguém a ganhar a eleição, então não basta desenhar o perfil de quem votou em Lula ou Bolsonaro usando algum survey. As coisas acontecem como acontecem por conta de um marketeiro por trás, então esses resultados são fabricados. Classe social, por exemplo, não determina voto.
+
+Hoje nós começamos a fazer estudos eleitorais com base em survey. Mas, ao mesmo tempo, por mais que seja bom, a base do survey é uma abordagem psicanalítica do comportamento eleitoral. Você acha que o eleitor tem uma certa "cabeça", como se o eleitor fosse uma coisa só. É por isso que a gente faz mapas pra ver onde tem mais operários, coisa e tal.
+
+Por que as pessoas mudam? Por que o Nordeste, que era refratário ao PT, se tornou o grande berço do PT? Até que ponto isso não é um trabalho político pra melhorar a imagem do PT por lá? Nós podemos tentar criar algum modelo estratégico para analisar isso. É isso que o microeconomista faz.
+
+O que a gente tem hoje pra oferecer pra um político hoje? Muito pouco, porque a gente não pensa em estratégia de fato.
