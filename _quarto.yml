@@ -24,6 +24,9 @@ book:
         - aulas/aula-02.qmd
         - aulas/aula-03.qmd
         - aulas/aula-04.qmd
+    - part: "Apresentações"
+      chapters:
+        - apresentacoes/index.qmd
 
 bibliography: references.bib
 

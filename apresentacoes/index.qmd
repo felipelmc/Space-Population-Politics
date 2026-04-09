@@ -1,0 +1,9 @@
+---
+title: "Apresentações"
+---
+
+Slides produzidos para as apresentações de textos ao longo do semestre.
+
+| Aula | Texto | Slides |
+|---|---|---|
+| 4 | @gelman2009red | [PDF](../presentation/presentation_gelman2009red.pdf) |
