@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-04-09">
+
+<title>4&nbsp; Padrões espaciais do voto (EUA e UE) – Espaço, População e Política</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../aulas/aula-03.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-0bb0b530e54782cf39a30b39ef8a2d6c.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-9f0b8f05b46c5b34c25a7b73a69d004d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../aulas/aula-01.html">Aulas</a></li><li class="breadcrumb-item"><a href="../aulas/aula-04.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Padrões espaciais do voto (EUA e UE)</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Espaço, População e Política</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/felipelmc/Space-Population-Politics" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Share" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Share"><i class="bi bi-share"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+              <i class="bi bi-twitter pe-1"></i>
+            Twitter
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|">
+              <i class="bi bi-linkedin pe-1"></i>
+            LinkedIn
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Apresentação</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Aulas</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../aulas/aula-01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Aula 1</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../aulas/aula-02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Geografia e Política</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../aulas/aula-03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Padrões espaciais do voto no Brasil</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../aulas/aula-04.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Padrões espaciais do voto (EUA e UE)</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#gelman2009red" id="toc-gelman2009red" class="nav-link active" data-scroll-target="#gelman2009red"><span class="header-section-number">5</span> <span class="citation" data-cites="gelman2009red">Gelman (2009)</span></a>
+  <ul class="collapse">
+  <li><a href="#income-matters-more-in-poor-states-than-in-rich-states" id="toc-income-matters-more-in-poor-states-than-in-rich-states" class="nav-link" data-scroll-target="#income-matters-more-in-poor-states-than-in-rich-states"><span class="header-section-number">5.1</span> Income matters more in poor states than in rich states</a></li>
+  <li><a href="#why-does-income-matter-more-in-poor-states-than-in-rich-states" id="toc-why-does-income-matter-more-in-poor-states-than-in-rich-states" class="nav-link" data-scroll-target="#why-does-income-matter-more-in-poor-states-than-in-rich-states"><span class="header-section-number">5.2</span> Why does income matter more in poor states than in rich states?</a></li>
+  </ul></li>
+  <li><a href="#gelman2007rich" id="toc-gelman2007rich" class="nav-link" data-scroll-target="#gelman2007rich"><span class="header-section-number">6</span> <span class="citation" data-cites="gelman2007rich">Gelman et al. (2007)</span></a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/felipelmc/Space-Population-Politics/edit/main/aulas/aula-04.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/felipelmc/Space-Population-Politics/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../aulas/aula-01.html">Aulas</a></li><li class="breadcrumb-item"><a href="../aulas/aula-04.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Padrões espaciais do voto (EUA e UE)</span></a></li></ol></nav>
+<div class="quarto-title">
+<div class="quarto-title-block"><div><h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Padrões espaciais do voto (EUA e UE)</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<p class="subtitle lead">Aula 4</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 9, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="gelman2009red" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> <span class="citation" data-cites="gelman2009red">Gelman (<a href="#ref-gelman2009red" role="doc-biblioref">2009</a>)</span></h1>
+<blockquote class="blockquote">
+<p>Carlson was half right. The Democrats win the rich states, but rich people vote Republican, just as they have for decades.</p>
+<p>However, what makes the statement interesting, though, is that it sounds as if it could be right. Consider the 2000 and 2004 elections, where George W. Bush won the lower-income states in the South and middle of the country, while his Democratic opponents captured the richer states in the Northeast and West Coast. As we shall discuss, this pattern is not an illusion of the map—the Democrats really have been doing better in richer parts of the country, and this pattern has become more noticeable in recent elections.</p>
+<p>The paradox is that, while these rich states have been trending Democratic, rich voters have remained consistently more Republican than voters on the lower end of the income scale. We display the graphically in figure 1.1. Tucker Carlson’s statement sounded reasonable given the voting patterns in states, but it doesn’t match what individual voters are doing. If poor people were a state, they would be “bluer” even than Massachusetts; if rich people were a state, they would be about as “red” as Alabama, Kansas, the Dakotas, or Texas. <span class="citation" data-cites="gelman2009red">(<a href="#ref-gelman2009red" role="doc-biblioref">Gelman 2009, 3</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>What this means is that the political differences among states are driven by cultural issues, but within states, the traditional rich–poor divide remains. <span class="citation" data-cites="gelman2009red">(<a href="#ref-gelman2009red" role="doc-biblioref">Gelman 2009, 5</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>When the news media repeatedly make a specific mistake, it is worth looking at. The perception of polarization is itself a part of polarization, and views about whom the candidates represent can affect how political decisions are reported. And, as we explore exhaustively, the red–blue culture war does seem to appear in voting patterns, but at the high end of income, not the low, with educated professionals moving toward the Democrats and managers and business owners moving toward the Republicans. <span class="citation" data-cites="gelman2009red">(<a href="#ref-gelman2009red" role="doc-biblioref">Gelman 2009, 6</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>If the Republicans represent the rich and big business and Democrats traditionally represent poorer people, why do wealthy states go for the Democrats? These patterns, along with blue-collar Reagan Democrats, the decline of organized labor, and the rise of the Sunbelt, motivate recent discussions of yuppie Democrats in the coastal cities and poorer Republicans elsewhere in the country. <span class="citation" data-cites="gelman2009red">(<a href="#ref-gelman2009red" role="doc-biblioref">Gelman 2009, 9</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Who gets the votes of the rich and the poor? Amid all the noise about red and blue states, rich voters continue to support the Republicans. <span class="citation" data-cites="gelman2009red">(<a href="#ref-gelman2009red" role="doc-biblioref">Gelman 2009, 9</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Brooks lives in a liberal, well-off part of the country. It is characteristic of the East and West Coasts that the richer areas tend to be more liberal, but in other parts of the country, notably the South, richer areas tend to be more conservative. <span class="citation" data-cites="gelman2009red">(<a href="#ref-gelman2009red" role="doc-biblioref">Gelman 2009, 11</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>We think both sides on this argument are trying too hard to explain something that’s simply not true. Lower-income Americans don’t, in general, vote Republican—and, where they do, richer voters go Republican even more so. <span class="citation" data-cites="gelman2009red">(<a href="#ref-gelman2009red" role="doc-biblioref">Gelman 2009, 16</a>)</span></p>
+</blockquote>
+<section id="income-matters-more-in-poor-states-than-in-rich-states" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="income-matters-more-in-poor-states-than-in-rich-states"><span class="header-section-number">5.1</span> Income matters more in poor states than in rich states</h2>
+<blockquote class="blockquote">
+<p>In low-income states such as Mississippi and Alabama, richer people were far more likely to vote for Bush. But in richer states such as New York and California, income is not a strong predictor of individual votes. <span class="citation" data-cites="gelman2009red">(<a href="#ref-gelman2009red" role="doc-biblioref">Gelman 2009, 17</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>The resolution of the red–blue paradox and the introduction of a new puzzle. Within any state, Republican support is flat or increasing with income. At the same time, the Democrats do better in richer states. (The three lines show the pattern of income and voting in 2004 in the poorest state, a middle-income state, and the richest state.) The new puzzle is that the relationship between income and vote choice is much stronger in poor states such as Mississippi than in rich states such as Connecticut. <span class="citation" data-cites="gelman2009red">(<a href="#ref-gelman2009red" role="doc-biblioref">Gelman 2009, 18</a>)</span></p>
+</blockquote>
+<p>We weren’t looking for this sort of pattern. Our original thinking was that some states are more Republican than others, but that there would be a consistent pattern of income and voting within each state, thus, the parallel lines with Mississippi on the top, then Ohio, then Connecticut, and each of the lines sloping upward. The graph as a whole was intended to show how increasing income could be predictive of Republican vote in each state, even while, on average, richer states supported Democrats. <span class="citation" data-cites="gelman2009red">(<a href="#ref-gelman2009red" role="doc-biblioref">Gelman 2009, 18</a>)</span></p>
+<blockquote class="blockquote">
+<p>In summary, who’s been voting for Democrats in recent presidential elections? Most of the poor people in most of the country (except for Texas and some of the plains and mountain states), as shown in the bottom of the three maps in plate 3. The Democrats also have the support of the middle class in the West Coast, the northeast, and some of the upper Midwest. Among the rich, Democrats win only in California, New York, Massachusetts, and Connecticut.</p>
+<p>Conversely, Republicans have been winning the votes of most of the upper-income voters in almost all of the states, middle-income voters in most of the states, and lower-income voters in only a few states. In fact, if only rich People’s votes were counted, Republicans would win an electoral landslide, and if only poor People’s votes were counted, Democrats would win overwhelmingly. <span class="citation" data-cites="gelman2009red">(<a href="#ref-gelman2009red" role="doc-biblioref">Gelman 2009, 19</a>)</span></p>
+</blockquote>
+</section>
+<section id="why-does-income-matter-more-in-poor-states-than-in-rich-states" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="why-does-income-matter-more-in-poor-states-than-in-rich-states"><span class="header-section-number">5.2</span> Why does income matter more in poor states than in rich states?</h2>
+<blockquote class="blockquote">
+<p>Part of the story is race. In poor southern states such as Missis- sippi, the rich–poor divide coincides with a white black divide, which, given the differences between the two parties on racial issues, will lead to a bigger difference between the voting patterns of rich and poor.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Religion also plays a role. In poor states, richer people are more likely than the poor to attend religious services, but in rich states, it is poor people who are churchgoers, often in evangelical denominations. By virtue of their religiosity, richer voters in Mississippi and other poor states have an extra reason to vote Republican. In contrast, richer voters in Connecticut and other poor states have a conflict between their economic status and their relative lack of religiosity. <span class="citation" data-cites="gelman2009red">(<a href="#ref-gelman2009red" role="doc-biblioref">Gelman 2009, 22</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>The political differences between Democratic and Republican voters are greatest among the middle-class and rich, and these are the people who can more easily afford to live where they would like. Increasingly, culture and religion are more important predictors of vote choice among the rich than the poor, and in that sense the country is polarized in two ways: economically between the rich and the poor, and culturally between upper-income Americans in red and blue areas. <span class="citation" data-cites="gelman2009red">(<a href="#ref-gelman2009red" role="doc-biblioref">Gelman 2009, 23</a>)</span></p>
+</blockquote>
+</section>
+</section>
+<section id="gelman2007rich" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> <span class="citation" data-cites="gelman2007rich">Gelman et al. (<a href="#ref-gelman2007rich" role="doc-biblioref">2007</a>)</span></h1>
+<blockquote class="blockquote">
+<p>For decades, the Democrats have been viewed as the party of the poor, with the Republicans representing the rich. Recent presidential elections, however, have shown a reverse pattern, with Democrats performing well in the richer blue states in the northeast and coasts, and Republicans dominating in the red states in the middle of the country and the south. Through multilevel modeling of individual-level survey data and county- and state-level demographic and electoral data, we reconcile these patterns.</p>
+<p>Furthermore, we find that income matters more in red America than in blue America. In poor states, rich people are much more likely than poor people to vote for the Republican presidential candidate, but in rich states (such as Connecticut), income has a very low correlation with vote preference. <span class="citation" data-cites="gelman2007rich">(<a href="#ref-gelman2007rich" role="doc-biblioref">Gelman et al. 2007, 345</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>We find that income matters more in red America than in blue America. In poor states, rich people are much more likely than poor people to vote for the Republican presidential candidate, but in rich states (such as Connecticut), income has almost no correlation with vote preference. <span class="citation" data-cites="gelman2007rich">(<a href="#ref-gelman2007rich" role="doc-biblioref">Gelman et al. 2007, 349</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>To study the relation of income to individual vote preferences, controlling for state, we fit from each election year’s poll data6 a multilevel logistic regression of vote preference on income (using the five-point scale noted in Footnote 5) and state. This varying-intercept model gives us 50 state-level coefficients allowing geographic variation in support for the Republican candidate in each election.7 The coefficient for income then represents the extent to which Republicans are differentially supported by richer voters, within any given state. <span class="citation" data-cites="gelman2007rich">(<a href="#ref-gelman2007rich" role="doc-biblioref">Gelman et al. 2007, 351</a>)</span></p>
+</blockquote>
+<p><span class="math display">\[
+\text{Pr}(y_i = 1) = \text{logit}^{-1} (\alpha_{s[i]} + \beta_{s[i]}x_i), \text{ for } i = 1, ..., n
+\]</span></p>
+<blockquote class="blockquote">
+<p>From this new model, we indeed find strong variation among states in the role of income in predicting vote preferences. Figure 4 recreates Figure 3 with the estimated varying intercepts and slopes. As before, we see generally positive slopes within states and a negative slope between states. What is new, though, is a systematic pattern of the within-state slopes, with the steepest slope in the poorest state — Mississippi — and the shallowest slope in the richest state — Connecticut. <span class="citation" data-cites="gelman2007rich">(<a href="#ref-gelman2007rich" role="doc-biblioref">Gelman et al. 2007, 356</a>)</span></p>
+</blockquote>
+<p>Our varying-intercept, varying-slope model has thus redefined the puzzle: in asking why the patterns within states differ from those between states, we are specifically interested in why slopes have become so shallow in rich states — that is, what’s the matter with Connecticut? We have found that the differences between rich and poor states have become much more prominent in the past 10 years, that they cannot simply be explained by race, and that they cannot be explained by the set of demographic variables that are typically used in adjusting survey respondents. &gt; &gt; This is not to say that income is causing support for Republicans (or that such a causal relation is stronger in Mississippi than in Connecticut), but rather that richer voters within any state are more likely to support the Republicans, even after controlling for basic demographic variables — and this pattern is strong in poor states but weak in rich states. <span class="citation" data-cites="gelman2007rich">(<a href="#ref-gelman2007rich" role="doc-biblioref">Gelman et al. 2007, 360</a>)</span></p>
+
+
+<!-- -->
+
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-gelman2009red" class="csl-entry" role="listitem">
+Gelman, Andrew. 2009. <em>Red State, Blue State, Rich State, Poor State: Why <span>A</span>mericans Vote the Way They Do</em>. Expanded. Princeton University Press.
+</div>
+<div id="ref-gelman2007rich" class="csl-entry" role="listitem">
+Gelman, Andrew, Boris Shor, Joseph Bafumi, and David Park. 2007. <span>“Rich State, Poor State, Red State, Blue State: What’s the Matter with Connecticut?”</span> <em>Quarterly Journal of Political Science</em> 2: 345–67. <a href="https://doi.org/10.1561/100.00006026">https://doi.org/10.1561/100.00006026</a>.
+</div>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+    const viewSource = window.document.getElementById('quarto-view-source') ||
+                       window.document.getElementById('quarto-code-tools-source');
+    if (viewSource) {
+      const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+      viewSource.addEventListener("click", function(e) {
+        if (sourceUrl) {
+          // rstudio viewer pane
+          if (/\bcapabilities=\b/.test(window.location)) {
+            window.open(sourceUrl);
+          } else {
+            window.location.href = sourceUrl;
+          }
+        } else {
+          const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+          modal.show();
+        }
+        return false;
+      });
+    }
+    function toggleCodeHandler(show) {
+      return function(e) {
+        const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+        for (let i=0; i<detailsSrc.length; i++) {
+          const details = detailsSrc[i].parentElement;
+          if (show) {
+            details.open = true;
+          } else {
+            details.removeAttribute("open");
+          }
+        }
+        const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+        const fromCls = show ? "hidden" : "unhidden";
+        const toCls = show ? "unhidden" : "hidden";
+        for (let i=0; i<cellCodeDivs.length; i++) {
+          const codeDiv = cellCodeDivs[i];
+          if (codeDiv.classList.contains(fromCls)) {
+            codeDiv.classList.remove(fromCls);
+            codeDiv.classList.add(toCls);
+          } 
+        }
+        return false;
+      }
+    }
+    const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+    if (hideAllCode) {
+      hideAllCode.addEventListener("click", toggleCodeHandler(false));
+    }
+    const showAllCode = window.document.getElementById("quarto-show-all-code");
+    if (showAllCode) {
+      showAllCode.addEventListener("click", toggleCodeHandler(true));
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../aulas/aula-03.html" class="pagination-link" aria-label="Padrões espaciais do voto no Brasil">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Padrões espaciais do voto no Brasil</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Padrões espaciais do voto (EUA e UE)"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">subtitle:</span><span class="co"> "Aula 4"</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> 2026-04-09</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu"># @gelman2009red</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Carlson was half right. The Democrats win the rich states, but rich people vote Republican, just as they have for decades. </span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; </span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; However, what makes the statement interesting, though, is that it sounds as if it could be right. Consider the 2000 and 2004 elections, where George W. Bush won the lower-income states in the South and middle of the country, while his Democratic opponents captured the richer states in the Northeast and West Coast. As we shall discuss, this pattern is not an illusion of the map—the Democrats really have been doing better in richer parts of the country, and this pattern has become more noticeable in recent elections.</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; </span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; The paradox is that, while these rich states have been trending Democratic, rich voters have remained consistently more Republican than voters on the lower end of the income scale. We display the graphically in figure 1.1. Tucker Carlson’s statement sounded reasonable given the voting patterns in states, but it doesn’t match what individual voters are doing. If poor people were a state, they would be “bluer” even than Massachusetts; if rich people were a state, they would be about as “red” as Alabama, Kansas, the Dakotas, or Texas. </span><span class="co">[</span><span class="ot">@gelman2009red, p. 3</span><span class="co">]</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; What this means is that the political differences among states are driven by cultural issues, but within states, the traditional rich–poor divide remains. </span><span class="co">[</span><span class="ot">@gelman2009red, p. 5</span><span class="co">]</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; When the news media repeatedly make a specific mistake, it is worth looking at. The perception of polarization is itself a part of polarization, and views about whom the candidates represent can affect how political decisions are reported. And, as we explore exhaustively, the red–blue culture war does seem to appear in voting patterns, but at the high end of income, not the low, with educated professionals moving toward the Democrats and managers and business owners moving toward the Republicans. </span><span class="co">[</span><span class="ot">@gelman2009red, p. 6</span><span class="co">]</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; If the Republicans represent the rich and big business and Democrats traditionally represent poorer people, why do wealthy states go for the Democrats? These patterns, along with blue-collar Reagan Democrats, the decline of organized labor, and the rise of the Sunbelt, motivate recent discussions of yuppie Democrats in the coastal cities and poorer Republicans elsewhere in the country. </span><span class="co">[</span><span class="ot">@gelman2009red, p. 9</span><span class="co">]</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Who gets the votes of the rich and the poor? Amid all the noise about red and blue states, rich voters continue to support the Republicans. </span><span class="co">[</span><span class="ot">@gelman2009red, p. 9</span><span class="co">]</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Brooks lives in a liberal, well-off part of the country. It is characteristic of the East and West Coasts that the richer areas tend to be more liberal, but in other parts of the country, notably the South, richer areas tend to be more conservative. </span><span class="co">[</span><span class="ot">@gelman2009red, p. 11</span><span class="co">]</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; We think both sides on this argument are trying too hard to explain something that’s simply not true. Lower-income Americans don’t, in general, vote Republican—and, where they do, richer voters go Republican even more so. </span><span class="co">[</span><span class="ot">@gelman2009red, p. 16</span><span class="co">]</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="fu">##  Income matters more in poor states than in rich states</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; In low-income states such as Mississippi and Alabama, richer people were far more likely to vote for Bush. But in richer states such as New York and California, income is not a strong predictor of individual votes. </span><span class="co">[</span><span class="ot">@gelman2009red, p. 17</span><span class="co">]</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; The resolution of the red–blue paradox and the introduction of a new puzzle. Within any state, Republican support is flat or increasing with income. At the same time, the Democrats do better in richer states. (The three lines show the pattern of income and voting in 2004 in the poorest state, a middle-income state, and the richest state.) The new puzzle is that the relationship between income and vote choice is much stronger in poor states such as Mississippi than in rich states such as Connecticut. </span><span class="co">[</span><span class="ot">@gelman2009red, p. 18</span><span class="co">]</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>We weren’t looking for this sort of pattern. Our original thinking was that some states are more Republican than others, but that there would be a consistent pattern of income and voting within each state, thus, the parallel lines with Mississippi on the top, then Ohio, then Connecticut, and each of the lines sloping upward. The graph as a whole was intended to show how increasing income could be predictive of Republican vote in each state, even while, on average, richer states supported Democrats. <span class="co">[</span><span class="ot">@gelman2009red, p. 18</span><span class="co">]</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; In summary, who’s been voting for Democrats in recent presidential elections? Most of the poor people in most of the country (except for Texas and some of the plains and mountain states), as shown in the bottom of the three maps in plate 3. The Democrats also have the support of the middle class in the West Coast, the northeast, and some of the upper Midwest. Among the rich, Democrats win only in California, New York, Massachusetts, and Connecticut.</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; </span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Conversely, Republicans have been winning the votes of most of the upper-income voters in almost all of the states, middle-income voters in most of the states, and lower-income voters in only a few states. In fact, if only rich People’s votes were counted, Republicans would win an electoral landslide, and if only poor People’s votes were counted, Democrats would win overwhelmingly. </span><span class="co">[</span><span class="ot">@gelman2009red, p. 19</span><span class="co">]</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="fu">## Why does income matter more in poor states than in rich states?</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Part of the story is race. In poor southern states such as Missis-</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="at">sippi, the rich–poor divide coincides with a white black divide,</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="at">which, given the differences between the two parties on racial</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="at">issues, will lead to a bigger difference between the voting patterns</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="at">of rich and poor.</span>  </span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Religion also plays a role. In poor states, richer people are more likely than the poor to attend religious services, but in rich states, it is poor people who are churchgoers, often in evangelical denominations. By virtue of their religiosity, richer voters in Mississippi and other poor states have an extra reason to vote Republican. In contrast, richer voters in Connecticut and other poor states have a conflict between their economic status and their relative lack of religiosity. </span><span class="co">[</span><span class="ot">@gelman2009red, p. 22</span><span class="co">]</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; The political differences between Democratic and Republican voters are greatest among the middle-class and rich, and these are the people who can more easily afford to live where they would like. Increasingly, culture and religion are more important predictors of vote choice among the rich than the poor, and in that sense the country is polarized in two ways: economically between the rich and the poor, and culturally between upper-income Americans in red and blue areas. </span><span class="co">[</span><span class="ot">@gelman2009red, p. 23</span><span class="co">]</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="fu"># @gelman2007rich</span></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; For decades, the Democrats have been viewed as the party of the poor, with the Republicans representing the rich. Recent presidential elections, however, have shown a reverse pattern, with Democrats performing well in the richer blue states in the northeast and coasts, and Republicans dominating in the red states in the middle of the country and the south. Through multilevel modeling of individual-level survey data and county- and state-level demographic and electoral data, we reconcile these patterns.</span></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="at">&gt;</span></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Furthermore, we find that income matters more in red America than in blue America. In poor states, rich people are much more likely than poor people to vote for the Republican presidential candidate, but in rich states (such as Connecticut), income has a very low correlation with vote preference. </span><span class="co">[</span><span class="ot">@gelman2007rich, p. 345</span><span class="co">]</span></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; We find that income matters more in red America than in blue America. In poor states, rich people are much more likely than poor people to vote for the Republican presidential candidate, but in rich states (such as Connecticut), income has almost no correlation with vote preference. </span><span class="co">[</span><span class="ot">@gelman2007rich, p. 349</span><span class="co">]</span></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; To study the relation of income to individual vote preferences, controlling for state, we fit from each election year’s poll data6 a multilevel logistic regression of vote preference on income (using the five-point scale noted in Footnote 5) and state. This varying-intercept model gives us 50 state-level coefficients allowing geographic variation in support for the Republican candidate in each election.7 The coefficient for income then represents the extent to which Republicans are differentially supported by richer voters, within any given state. </span><span class="co">[</span><span class="ot">@gelman2007rich, p. 351</span><span class="co">]</span></span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>$$</span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>\text{Pr}(y_i = 1) = \text{logit}^{-1} (\alpha_{s<span class="co">[</span><span class="ot">i</span><span class="co">]</span>} + \beta_{s<span class="co">[</span><span class="ot">i</span><span class="co">]</span>}x_i), \text{ for } i = 1, ..., n</span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>$$</span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; From this new model, we indeed find strong variation among states in the role of income in predicting vote preferences. Figure 4 recreates Figure 3 with the estimated varying intercepts and slopes. As before, we see generally positive slopes within states and a negative slope between states. What is new, though, is a systematic pattern of the within-state slopes, with the steepest slope in the poorest state — Mississippi — and the shallowest slope in the richest state — Connecticut. </span><span class="co">[</span><span class="ot">@gelman2007rich, p. 356</span><span class="co">]</span></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>Our varying-intercept, varying-slope model has thus redefined the puzzle: in asking why the patterns within states differ from those between states, we are specifically interested in why slopes have become so shallow in rich states — that is, what’s the matter with Connecticut? We have found that the differences between rich and poor states have become much more prominent in the past 10 years, that they cannot simply be explained by race, and that they cannot be explained by the set of demographic variables that are typically used in adjusting survey respondents. </span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; </span></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; This is not to say that income is causing support for Republicans (or that such a causal relation is stronger in Mississippi than in Connecticut), but rather that richer voters within any state are more likely to support the Republicans, even after controlling for basic demographic variables — and this pattern is strong in poor states but weak in rich states. </span><span class="co">[</span><span class="ot">@gelman2007rich, p. 360</span><span class="co">]</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+</div></div></div></div></div>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/felipelmc/Space-Population-Politics/edit/main/aulas/aula-04.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/felipelmc/Space-Population-Politics/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
